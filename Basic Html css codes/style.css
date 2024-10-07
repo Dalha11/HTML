@@ -1,49 +1,26 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
 }
 
-header h1{
-    background-color: black;
-    color: white;
-    text-align: center;
-    height: 50px;
-    padding: 20px;
-}
-
-.img{
-    margin:30px;
-    border-color: black;
-    border-style: solid;
-    width:210px;
-    text-align: center;
-    display:inline-block;
-}
-.one{
-    text-align: center;
-}
-
-.order{
-    background-color: black;
-    color: white;
-    border-style: solid;
-    border-color: black;
-}
-
-.order:hover{
-    cursor: pointer;
-}
-
-.last{
-    background-color: black;
-    color: white;
+.title{
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
 }
-.contact form table {
-    text-align: center;
-    margin: 0 auto; /* This centers the table */
 
+.container div{
+    width:200px;
+    margin: 20px;
+    flex-basis: 20%; 
 }
 
-
+.container{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
